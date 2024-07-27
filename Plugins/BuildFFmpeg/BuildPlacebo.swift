@@ -181,7 +181,7 @@ class BuildShaderc: BaseBuild {
     }
 
     override func frameworks() throws -> [String] {
-        ["libshaderc_combined"]
+        ["libshaderccombined"]
     }
 
     override func build(platform: PlatformType, arch: ArchType, buildURL: URL) throws {
