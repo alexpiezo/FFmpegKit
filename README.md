@@ -9,14 +9,35 @@ It includes scripts to build `FFmpeg` native libraries, three executable product
 - three executable product `ffplay`/`ffmpeg`/`ffprobe` in macos
 - Supports native platforms: `iOS`, `macOS`, `tvOS`, `visionOS`
 - Build MPV
+- Fix KSPlayer Bugs
+
+
+-[](Demo/screenshots/combined_image.jpeg)
 
 ### Swift Package Manager
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/kingslay/FFmpegKit.git", .branch("main"))
+    .package(url: "https://github.com/nicolastinkl/FFmpegKit.git", .branch("main"))
 ]
 ```
+
+```Podfile
+
+#---------- from github
+  pod 'Libass', :git => 'https://github.com/nicolastinkl/FFmpegKit', :branch => 'main'
+  pod 'Libmpv', :git => 'https://github.com/nicolastinkl/FFmpegKit', :branch => 'main'
+  pod 'FFmpegKit', :git => 'https://github.com/nicolastinkl/FFmpegKit', :branch => 'main'
+
+#---------- from local folder
+#  pod 'Libass', :path => '/path/FFmpegKit'
+#  pod 'Libmpv', :path => '/path/FFmpegKit'
+#  pod 'FFmpegKit', :path => '/path/FFmpegKit'
+
+```
+
+
+
 
 ## Build Scripts
 ```bash
