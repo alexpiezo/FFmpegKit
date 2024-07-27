@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -359,7 +359,6 @@
 			);
 			mainGroup = AC11A8812B149AD50038302D;
 			packageReferences = (
-				AC09B5A32B220A4B00FCDB0B /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = AC11A88B2B149AD50038302D /* Products */;
 			projectDirPath = "";
@@ -724,6 +723,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = M67A54UHA3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -755,6 +755,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = M67A54UHA3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -940,13 +941,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		AC09B5A32B220A4B00FCDB0B /* XCLocalSwiftPackageReference ".." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ..;
-		};
-/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		AC09B5A42B220A4B00FCDB0B /* FFmpegKit */ = {
