@@ -37,6 +37,12 @@ extension Build {
             printHelp()
             return
         }
+
+        if arguments.contains("clean") || arguments.contains("-c") || arguments.contains("--clean") {
+            printClean()
+            return
+        }
+
         if Utility.shell("which brew") == nil {
             print("""
             You need to run the script first
@@ -105,6 +111,14 @@ extension Build {
         for library in librarys {
             try library.build.buildALL()
         }
+    }
+
+
+    static func printClean(){
+         print("""
+                clean...
+                """)
+                
     }
 
     static func printHelp() {
