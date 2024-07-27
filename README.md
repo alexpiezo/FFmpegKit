@@ -12,7 +12,7 @@ It includes scripts to build `FFmpeg` native libraries, three executable product
 - Fix KSPlayer Bugs
 
 
--[](Demo/screenshots/combined_image.jpeg)
+![](Demo/screenshots/combined_image.jpeg)
 
 ### Swift Package Manager
 
@@ -22,7 +22,10 @@ dependencies: [
 ]
 ```
 
-```Podfile
+
+### CoccosPod
+
+```shell
 
 #---------- from github
   pod 'Libass', :git => 'https://github.com/nicolastinkl/FFmpegKit', :branch => 'main'
